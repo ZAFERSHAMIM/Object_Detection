@@ -14,3 +14,6 @@ mv distribute/python/caffe ~/python
 # set PYTHONPATH (this should go in your .bashrc or whatever
 PYTHONPATH=${HOME}/python:$PYTHONPATH
 
+https://www.youtube.com/watch?v=gaGgFLE7aDY
+
+https://docs.python.org/2/tutorial/modules.html
