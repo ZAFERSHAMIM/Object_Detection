@@ -2,3 +2,15 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 https://beerensahu.wordpress.com/2018/04/11/caffe-installation-for-cpu-only-in-ubuntu-17-04/
 conda create --name D:\MyCondaEnv\name python=3.6
 http://docs.anaconda.com/anaconda/install/uninstall/
+
+Please inspect your PYTHONPATH as it looks wrong. You should give absolute paths to the caffe module's parent directory. For instance, in my configuration I did:
+# in caffe root dir
+make all
+make pycaffe
+make distribute
+# make dir for custom python modules, install caffe
+mkdir ~/python
+mv distribute/python/caffe ~/python
+# set PYTHONPATH (this should go in your .bashrc or whatever
+PYTHONPATH=${HOME}/python:$PYTHONPATH
+
