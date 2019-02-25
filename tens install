@@ -26,3 +26,5 @@ https://github.com/tensorflow/models/issues/2930
 
 
 https://github.com/tensorflow/models/issues/2739#issuecomment-351213863
+
+https://github.com/tensorflow/models/blob/master/research/object_detection/dataset_tools/create_pascal_tf_record.py
