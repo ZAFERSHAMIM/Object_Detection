@@ -32,3 +32,5 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/datas
  tensorboard --logdir=/tmp/tensorflow/mnist
 
 https://github.com/tensorflow/models/issues/5805 
+
+https://picamera.readthedocs.io/en/release-1.13/
