@@ -34,3 +34,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/datas
 https://github.com/tensorflow/models/issues/5805 
 
 https://picamera.readthedocs.io/en/release-1.13/
+
+https://www.coursera.org/specializations/iot
+
+Note: If you plan to run this on the Pi for extended periods of time (greater than 5 minutes), make sure to have a heatsink installed on the Pi's main CPU! All the processing causes the CPU to run hot. Without a heatsink, it will shut down due to high temperature.
