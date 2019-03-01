@@ -39,6 +39,8 @@ https://www.coursera.org/specializations/iot
 
 Note: If you plan to run this on the Pi for extended periods of time (greater than 5 minutes), make sure to have a heatsink installed on the Pi's main CPU! All the processing causes the CPU to run hot. Without a heatsink, it will shut down due to high temperature.
 
-https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/
+https://trickiknow.com/raspberry-pi-3-complete-tutorial-2018-lets-get-started/ (3.5 inch display setup)
 
-https://www.youtube.com/watch?v=toWBmUsWD6M
+https://www.youtube.com/watch?v=toWBmUsWD6M (headless setup)
+
+http://www.circuitbasics.com/how-to-set-up-wifi-on-the-raspberry-pi-3/ (headless wifi setup)
