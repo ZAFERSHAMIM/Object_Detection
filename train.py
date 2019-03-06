@@ -14,7 +14,7 @@ y = pickle.load(pickle_in)
 
 X = X/255.0
 
-dense_layers = [0]
+dense_layers = [0]     #change as per best combination considering overfitting.
 layer_sizes = [64]
 conv_layers = [3]
 
