@@ -68,5 +68,8 @@ https://github.com/tlkh/SmartBin (implemented project)
 https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API  (cv on trained model).
 https://github.com/rdeepc/herokuobjectdetection  (opencv file) 
 https://github.com/rdeepc/ExploreOpencvDnn
+https://heartbeat.fritz.ai/real-time-object-detection-on-raspberry-pi-using-opencv-dnn-98827255fa60 (documentation)
 
+https://www.tensorflow.org/lite/guide/get_started#2_convert_the_model_format
 
+https://software.intel.com/en-us/articles/OpenVINO-Using-TensorFlow
