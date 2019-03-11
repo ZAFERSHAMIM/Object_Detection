@@ -1,3 +1,5 @@
+#used for training keras cnn it utilises pickle file generated from dataset.py can change line 19-21 for better accuracy depending on tensorboard results.
+
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
