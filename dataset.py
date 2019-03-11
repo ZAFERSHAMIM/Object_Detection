@@ -1,3 +1,5 @@
+#used for creating keras cnn dataset for classification purpose
+
 import numpy as np
 import matplotlib.pyplot as plt
 import os
