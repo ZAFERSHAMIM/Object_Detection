@@ -21,8 +21,8 @@ for category in CATEGORIES:  # do dogs and cats
     break  #...and one more!
     
 
-
-IMG_SIZE = 100
+#change image resolution till clarity is obtained img resolution= IMG_SIZE*IMG_SIZE (pixels)
+IMG_SIZE = 100   
 
 new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
 plt.imshow(new_array, cmap='gray')
