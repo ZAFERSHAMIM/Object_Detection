@@ -14,6 +14,6 @@ def prepare(filepath):
 
 model = tf.keras.models.load_model("64x3-CNN.model")
 
-prediction = model.predict([prepare('cola-drink-in-metal-can-stock-illustrations_csp5956727.jpg')]) # input image for detection
+prediction = model.predict([prepare('test image/input.jpg')]) # input image for detection
 print(prediction)  # will be a list in a list.
 print(CATEGORIES[int(prediction[0][0])])
