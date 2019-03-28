@@ -107,3 +107,5 @@ https://github.com/tensorflow/models/issues/5954 (issue no groundtruth image)
 https://github.com/Franck-Dernoncourt/caffe_demos/blob/master/caffe_installation/compile_caffe_ubuntu_14.04.sh (caffe installation)
 
 http://www.wisdom.weizmann.ac.il/~vision/courses/2016_1/DNN/files/Makefile.config.txt (appending lib in config file)
+
+https://github.com/BVLC/caffe/pull/6625/commits/7f503bd9a19758a173064e299ab9d4cac65ed60f  (make with opencv 4)
