@@ -105,3 +105,5 @@ https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Trai
 https://github.com/tensorflow/models/issues/5954 (issue no groundtruth image)
 
 https://github.com/Franck-Dernoncourt/caffe_demos/blob/master/caffe_installation/compile_caffe_ubuntu_14.04.sh (caffe installation)
+
+http://www.wisdom.weizmann.ac.il/~vision/courses/2016_1/DNN/files/Makefile.config.txt (appending lib in config file)
