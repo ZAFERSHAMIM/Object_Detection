@@ -77,9 +77,9 @@ caffe_root = os.getcwd()
 run_soon = True
 
 # The database file for training data. Created by data/VOC0712/create_data.sh
-train_data = "examples/MELON/MELON_trainval_lmdb"
+train_data = "examples/PLASTIC/PLASTIC_trainval_lmdb"
 # The database file for testing data. Created by data/VOC0712/create_data.sh
-test_data = "examples/MELON/MELON_test_lmdb"
+test_data = "examples/PLASTIC/PLASTIC_test_lmdb"
 # Specify the batch sampler.
 resize_width = 300
 resize_height = 300
@@ -232,16 +232,16 @@ else:
 # The job name should be same as the name used in examples/ssd/ssd_pascal.py.
 job_name = "SSD_{}".format(resize)
 # The name of the model. Modify it if you want.
-model_name = "VGG_MELON_{}".format(job_name)
+model_name = "VGG_PLASTIC_{}".format(job_name)
 
 # Directory which stores the model .prototxt file.
-save_dir = "models/VGGNet/MELON/{}_score".format(job_name)
+save_dir = "models/VGGNet/PLASTIC/{}_score".format(job_name)
 # Directory which stores the snapshot of trained models.
-snapshot_dir = "models/VGGNet/MELON/{}".format(job_name)
+snapshot_dir = "models/VGGNet/PLASTIC/{}".format(job_name)
 # Directory which stores the job script and log file.
-job_dir = "jobs/VGGNet/MELON/{}_score".format(job_name)
+job_dir = "jobs/VGGNet/PLASTIC/{}_score".format(job_name)
 # Directory which stores the detection results.
-output_result_dir = "{}/data/VOCdevkit/results/MELON/{}_score/Main".format(os.environ['HOME'], job_name)
+output_result_dir = "{}/data/VOCdevkit/results/PLASTIC/{}_score/Main".format(os.environ['HOME'], job_name)
 
 # model definition files.
 train_net_file = "{}/train.prototxt".format(save_dir)
@@ -267,14 +267,14 @@ if max_iter == 0:
   sys.exit()
 
 # Stores the test image names and sizes. Created by data/VOC0712/create_list.sh
-name_size_file = "data/MELON/test_name_size.txt"
+name_size_file = "data/PLASTIC/test_name_size.txt"
 # The resume model.
 pretrain_model = "{}_iter_{}.caffemodel".format(snapshot_prefix, max_iter)
 # Stores LabelMapItem.
-label_map_file = "data/MELON/labelmap_melon.prototxt"
+label_map_file = "data/PLASTIC/labelmap_plastic.prototxt"
 
 # MultiBoxLoss parameters.
-num_classes = 3
+num_classes = 2
 share_location = True
 background_label_id=0
 train_on_diff_gt = True
@@ -367,7 +367,7 @@ elif normalization_mode == P.Loss.FULL:
   base_lr *= 2000.
 
 # Evaluate on whole test set.
-num_test_image = 10
+num_test_image = 74
 test_batch_size = 2
 # Ideally test_batch_size should be divisible by num_test_image,
 # otherwise mAP will be slightly off the true value.
