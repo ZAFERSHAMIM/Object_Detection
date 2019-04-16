@@ -111,3 +111,5 @@ http://www.wisdom.weizmann.ac.il/~vision/courses/2016_1/DNN/files/Makefile.confi
 https://github.com/BVLC/caffe/pull/6625/commits/7f503bd9a19758a173064e299ab9d4cac65ed60f  (make with opencv 4)
 
 https://www.roboshala.com/iot-theft-notification-using-blynk-door-status/ ( door sensor magnetic) code and connection.
+
+https://www.pyimagesearch.com/2016/05/16/running-a-python-opencv-script-on-reboot/ (running code hust after boot)
