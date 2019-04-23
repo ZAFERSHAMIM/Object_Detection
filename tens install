@@ -113,3 +113,7 @@ https://github.com/BVLC/caffe/pull/6625/commits/7f503bd9a19758a173064e299ab9d4ca
 https://www.roboshala.com/iot-theft-notification-using-blynk-door-status/ ( door sensor magnetic) code and connection.
 
 https://www.pyimagesearch.com/2016/05/16/running-a-python-opencv-script-on-reboot/ (running code hust after boot)
+
+https://www.electronicshub.org/raspberry-pi-color-sensor-tutorial/ ( raw rgb values as well as rgb output code)
+
+http://www.pibits.net/code/raspberry-pi-and-tcs34725-color-sensor.php (python terminal executable)
