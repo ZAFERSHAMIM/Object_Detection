@@ -59,14 +59,10 @@ def loop():
     elif red<12000 and  blue<12000 and green>12000:
       print("green")
       temp=1
-    elif green<7000 and red<7000 and blue>12000:
-      print("blue")
-      temp=1
-    elif red>10000 and green>10000 and blue>10000 and temp==1:
-      print("place the object.....")
+    elif green<16000 and red<16000 and blue>17000:
+      print("pet")
       temp=0
-
-
+      
 def endprogram():
     GPIO.cleanup()
 
