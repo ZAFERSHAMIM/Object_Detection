@@ -52,17 +52,17 @@ def loop():
     duration = time.time() - start
     green = NUM_CYCLES / duration
     
-      
-    if green<7000 and blue<7000 and red>12000:
-      print("red")
+    if 6500<green<7500 and 9000<blue<10500 and 9000<red<9700:
+      print("red cello")
       temp=1
-    elif red<12000 and  blue<12000 and green>12000:
-      print("green")
+    elif 7000<red<9300 and  12000<blue<15000 and 8000<green<11000:
+      print("blue pearlpet")
       temp=1
-    elif green<16000 and red<16000 and blue>17000:
+    elif green>9000 and red>9000 and 10000<blue<12000:
       print("pet")
-      temp=0
-      
+      temp=1
+
+
 def endprogram():
     GPIO.cleanup()
 
