@@ -6,11 +6,11 @@
 BlynkTimer timer;
 
 
-// You should get Auth Token in the Blynk App.
+// You should get Auth Token in the Blynk App type that code inside double quotes of char auth
 // Go to the Project Settings (nut icon).
 char auth[] = ""; 
 
-// Your WiFi credentials.
+// Your WiFi credentials place them inside double quotes.
 // Set password to "" for open networks.
 char ssid[] = "";
 char pass[] = "";
